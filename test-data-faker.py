@@ -1,4 +1,4 @@
-import pandas as pd
+Tstimport pandas as pd
 from faker import Faker
 import random
 from datetime import date, timedelta
@@ -292,4 +292,4 @@ df = df.sort_values(by=['employee_id', 'year']).reset_index(drop=True)
 print("Data generation complete. Here's a sample:")
 print(df.head(20))
 df.to_csv('fake_employee_data_2020_hiring_reduced.csv', index=False)
-print("\nUpdated data saved to 'fake_employee_data_2020_hiring_reduced.csv'")
+print("\nFake Test data saved to 'fake_employee_data.csv'")
