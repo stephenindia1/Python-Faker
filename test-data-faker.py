@@ -291,5 +291,5 @@ df = df.sort_values(by=['employee_id', 'year']).reset_index(drop=True)
 
 print("Data generation complete. Here's a sample:")
 print(df.head(20))
-df.to_csv('fake_employee_data_2020_hiring_reduced.csv', index=False)
-print("\nUpdated data saved to 'fake_employee_data_2020_hiring_reduced.csv'")
+df.to_csv('Test_employee_data.csv', index=False)
+print("\nTest data saved to 'fake_employee_data.csv'")
